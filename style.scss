@@ -1,0 +1,47 @@
+h1 {
+  text-align: center;
+}
+body {
+  background-color: antiquewhite;
+}
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: aqua;
+}
+
+.todo-list {
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.todo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Pour centrer l'élément Todo */
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  background-color: orange;
+}
+
+.todo-text {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.todo-delete {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
