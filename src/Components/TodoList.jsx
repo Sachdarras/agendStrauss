@@ -6,7 +6,7 @@ function TodoList() {
   const [todos, setTodos] = useState([]);
   return (
     <div className="app-wrapper">
-      <h1>ToDo-list</h1>
+      <h2>ToDo-list</h2>
       <Form
         addTodo={(todo) => {
           setTodos((prev) => [...prev, todo]);
