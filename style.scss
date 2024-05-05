@@ -20,6 +20,7 @@ h2 {
 .container {
   display: flex;
   justify-content: center;
+  gap: 10px;
 }
 // to-do list
 .app-wrapper {
@@ -261,6 +262,7 @@ abbr[title] {
 @media screen and (max-width: 600px) {
   .container {
     flex-direction: column;
+    gap: 10px;
   }
 
   .app-wrapper,
